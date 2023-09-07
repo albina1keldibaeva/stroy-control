@@ -1,0 +1,18 @@
+.blocks__content  {
+    color: #72787D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 127px;
+    gap: 119px;
+
+}
+.blocks__content p {
+    width: 109px;
+    margin-top: 32px;
+    text-align: center;
+}

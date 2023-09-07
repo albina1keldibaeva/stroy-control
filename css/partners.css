@@ -1,0 +1,14 @@
+.partners__content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+}
+.partners {
+    margin-top: 128px;
+}
+.blocks__content p {
+    display: flex;
+    justify-content: center;
+}

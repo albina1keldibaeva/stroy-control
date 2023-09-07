@@ -1,0 +1,58 @@
+.materials__title {
+    color: #212B31;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+}
+.materials__description {
+    color: #72787D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    max-width: 643px;
+    margin: 0 auto;
+}
+.materials__item h3 {
+    color: #212B31;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+.materials__item p {
+    color: #72787D;
+    font-family: Inter;
+    font-size: 16px;
+    width: 270px;
+}
+
+.materials__bottom {
+    color: #72787D;
+    font-family: Inter;
+    font-size: 20px;
+    text-align: center;
+}
+.materials__bottom span {
+    color: #212B31;
+    position: relative;
+    z-index: -10;
+}
+.materials__item {
+    display: flex;
+    gap: 16px;
+    
+}
+.materials__content {
+    margin-top: 43px;
+    margin-bottom: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 27px;
+    row-gap: 33px;
+
+}
+.materials {
+    margin-top: 143px;
+}

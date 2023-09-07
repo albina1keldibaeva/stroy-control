@@ -1,0 +1,144 @@
+.control {
+    margin-top: 78.28px;
+}
+.controle__title {
+    color: #212B31;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+}
+.control__text {
+    color: #72787D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    max-width: 827px;
+    margin: 0 auto;
+}
+.delivery h2 {
+    color: #212B31;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 452px;
+    margin-top: 95px;
+    margin-bottom: 19px;
+}
+.delivery p {
+    color: #72787D;
+    font-family: Inter;
+    font-size: 16px;
+    max-width: 500px;
+    margin-top: 19px;
+    margin-right: 91px;
+}
+.delivery {
+display: flex;
+justify-content: center;
+}
+.place {
+    display: flex;
+    justify-content: center;
+}
+.place h2 {
+    color: #212B31;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 515px;
+    margin-bottom: 19px;
+    margin-left: 101px;
+    margin-top: 65px;
+}
+.place p {
+    color: #72787D;
+    font-family: Inter;
+    font-size: 16px;
+    max-width: 500px;
+    margin-left: 101px;
+    margin-bottom: 152px;
+}
+.time h2{
+    color: #212B31;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 550px;
+    margin-top: 50px;
+}
+.time p {
+    color: #72787D;
+    font-family: Inter;
+    font-size: 16px;
+    margin-top: 19px;
+    max-width: 500px;
+    
+}
+.time {
+    display: flex;
+    justify-content: center;
+    
+}
+@media screen and (max-width: 764px) {
+    .delivery {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .delivery h2 {
+      margin: 0 auto;
+    }
+
+    .delivery p  {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .delivery img {
+        max-width: 100%;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 764px) {
+    .place {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .place h2 {
+      margin: 0 auto;
+    }
+
+    .place p  {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .place img {
+        max-width: 100%;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 764px) {
+    .time {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .time h2 {
+      margin: 0 auto;
+    }
+
+    .time p  {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .time img {
+        max-width: 100%;
+        margin-top: 50px;
+    }
+}
